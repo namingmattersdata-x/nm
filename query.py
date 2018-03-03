@@ -88,6 +88,25 @@ def thomas_net(query=""):
 
 # print(list(thomas_net("resolute")))
 
+def open_corporates(query = ""):
+	headers = {
+	    "content-type" : "application/json",
+	}
+	data = {
+	    "q": query,
+	}
+	response = requests.get(
+	    url="https://api.opencorporates.com/companies/search",
+	    headers=headers,
+	    params=data
+	)
+	# there's some other decent info in here
+	# PrettyPrinter().pprint(response.json())
+	companies = [company['company']['name'] for company in response.json()['results']['companies']]
+	return companies
+
+# print(open_corporates("resolute")
+
 
 ## PeopleDataLabs (to find company names)
 # Google News API (to get more information and possibly risk factor/maybe find company names)
