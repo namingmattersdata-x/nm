@@ -31,7 +31,7 @@ class CompanyName(object):
                 "clean": self.clean,
                 "suffixes":self.suffixes, 
                 "sig_tokens":self.sig_tokens,
-                "name": self.name
+                "name": self.name 
                 }
         return
         
