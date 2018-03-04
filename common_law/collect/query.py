@@ -1,3 +1,4 @@
+# MOSTLY DEPRECATED IN FAVOR OF Collector() class (collector.py), JUST FOR REFERENCE
 import bs4 as bs
 import requests
 # import json
