@@ -1,6 +1,7 @@
 import bs4 as bs
 import requests
 # import json
+from pprint import PrettyPrinter
 
 # FULL CONTACT (BY DOMAIN) (to get more information using domain)
 def full_contact(query=""):
@@ -25,6 +26,8 @@ def full_contact(query=""):
 # ie "Frank's bike" returns "Frank's Bike Shop Manhattan", but "Frank's bikes" does NOT 
 
 def nytimes(query = ""):
+	# have to query multiple times because we need to offset each query in order to 'paginate'
+	# through results
 	def query_nytimes(query = "", offset=0):
 		headers = {
 		    "content-type" : "application/json",
@@ -101,11 +104,12 @@ def open_corporates(query = ""):
 	    params=data
 	)
 	# there's some other decent info in here
-	# PrettyPrinter().pprint(response.json())
-	companies = [company['company']['name'] for company in response.json()['results']['companies']]
-	return companies
+	PrettyPrinter().pprint(response.json())
+	# companies = [company['company']['name'] for company in response.json()['results']['companies']]
 
-# print(open_corporates("resolute")
+	# return companies
+
+print(open_corporates("resolute"))
 
 
 ## PeopleDataLabs (to find company names)
