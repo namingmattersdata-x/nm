@@ -25,6 +25,8 @@ def full_contact(query=""):
 # ie "Frank's bike" returns "Frank's Bike Shop Manhattan", but "Frank's bikes" does NOT 
 
 def nytimes(query = ""):
+	# have to query multiple times because we need to offset each query in order to 'paginate'
+	# through results
 	def query_nytimes(query = "", offset=0):
 		headers = {
 		    "content-type" : "application/json",
