@@ -1,0 +1,226 @@
+{'articles': [{'author': 'http://www.dailymail.co.uk/home/search.html?s=&authornamef=Reuters, '
+                         'By Reuters',
+               'description': 'By Allison LampertMONTREAL, Feb 7 (Reuters) - '
+                              'At least two Canadian forestry  companies are '
+                              'reviewing offers by cryptocurrency miners who '
+                              'want  to lease...',
+               'publishedAt': '2018-02-07T17:53:30Z',
+               'source': {'id': 'daily-mail', 'name': 'Daily Mail'},
+               'title': 'As cryptominers eye Quebec, forest companies see...',
+               'url': 'http://www.dailymail.co.uk/wires/reuters/article-5363957/As-cryptominers-eye-Quebec-forest-companies-opportunity.html',
+               'urlToImage': 'http://i.dailymail.co.uk/i/pix/m_logo_636x382px.png'},
+              {'author': 'Reuters Editorial',
+               'description': 'MONTREAL (Reuters) - At least two Canadian '
+                              'forestry companies are reviewing offers by '
+                              'cryptocurrency miners who want to lease excess '
+                              'mill space in Quebec, a province where '
+                              'electricity prices are among the lowest in '
+                              'North America.',
+               'publishedAt': '2018-02-07T18:14:13Z',
+               'source': {'id': 'reuters', 'name': 'Reuters'},
+               'title': 'As cryptominers eye Quebec, forest companies see '
+                        'opportunity',
+               'url': 'https://www.reuters.com/article/us-crypto-canada-mining/as-cryptominers-eye-quebec-forest-companies-see-opportunity-idUSKBN1FR2PM',
+               'urlToImage': 'https://s1.reutersmedia.net/resources/r/?m=02&d=20180207&t=2&i=1229170740&w=1200&r=LYNXMPEE161O1'},
+              {'author': 'Reuters Editorial',
+               'description': 'MONTREAL, Feb 7 (Reuters) - At least two '
+                              'Canadian forestry companies are reviewing '
+                              'offers by cryptocurrency miners who want to '
+                              'lease excess mill space in Quebec, a province '
+                              'where electricity prices are among the lowest '
+                              'in North America.',
+               'publishedAt': '2018-02-07T17:52:32Z',
+               'source': {'id': 'reuters', 'name': 'Reuters'},
+               'title': 'As cryptominers eye Quebec, forest companies see '
+                        'opportunity',
+               'url': 'https://www.reuters.com/article/crypto-canada-mining/as-cryptominers-eye-quebec-forest-companies-see-opportunity-idUSL2N1PS1RZ',
+               'urlToImage': 'https://s4.reutersmedia.net/resources_v2/images/rcom-default.png'},
+              {'author': 'BRENT JANG',
+               'description': 'But outgoing CEO says company is still going '
+                              'strong',
+               'publishedAt': '2018-02-01T22:58:23Z',
+               'source': {'id': 'the-globe-and-mail',
+                          'name': 'The Globe And Mail'},
+               'title': 'Resolute stock falls after earnings miss, trucking '
+                        'concerns',
+               'url': 'https://www.theglobeandmail.com/report-on-business/industry-news/energy-and-resources/resolutes-outgoing-ceo-says-company-is-still-going-strong/article37826044/',
+               'urlToImage': 'https://www.theglobeandmail.com/resizer/f-xwqeJdL1ui9NpsOmgQiqsHGK4=/1200x0/filters:quality(80)/arc-anglerfish-tgam-prod-tgam.s3.amazonaws.com/public/2CUX7ORKWJCWHDYJE2XA2ETTHI.JPG'},
+              {'author': 'Resolute Forest Products Inc.',
+               'description': 'C $ MONTRÉAL, Dec. 21, 2017 /PRNewswire/ - '
+                              'Resolute Forest Products Inc. (NYSE: RFP) (TSX: '
+                              'RFP) today announced the closing of a '
+                              'transaction to acquire the 49 percent equity '
+                              'interest held by The New York Times Company in '
+                              'Donohue Malbaie Inc. for a cash purcha…',
+               'publishedAt': '2017-12-21T22:01:00Z',
+               'source': {'id': None, 'name': 'Prnewswire.com'},
+               'title': 'Resolute Acquires Full Ownership of Donohue Malbaie',
+               'url': 'https://www.prnewswire.com/news-releases/resolute-acquires-full-ownership-of-donohue-malbaie-665759693.html',
+               'urlToImage': 'https://content.prnewswire.com/images/prn_facebook_sharing_logo.jpg'},
+              {'author': None,
+               'description': 'At least two Canadian forestry companies are '
+                              'reviewing offers by cryptocurrency miners who '
+                              'want to lease excess mill space in Québec, a '
+                              'province where electricity prices are among the '
+                              'lowest in North America, Reuters reported. \r\n'
+                              'Resolute Forest Products and F…',
+               'publishedAt': '2018-02-12T20:43:28Z',
+               'source': {'id': None, 'name': 'Pehub.com'},
+               'title': 'Reuters News wrote a new post, As cryptominers eye '
+                        'Québec, forest companies see opportunity: Reuters, on '
+                        'the site PE Hub',
+               'url': 'https://www.pehub.com/canada/2018/02/cryptominers-eye-quebec-forest-companies-see-opportunity-reuters/',
+               'urlToImage': 'https://www.pehub.com/wp-content/uploads/2018/02/Bitfarms-Christinne-Muschi.jpg'},
+              {'author': None,
+               'description': 'MONTREAL: At least two Canadian forestry '
+                              'companies are reviewing offers by '
+                              'cryptocurrency miners who want to lease excess '
+                              'mill space in Quebec, a province where '
+                              'electricity prices are among the lowest in '
+                              'North America.\n'
+                              '\n'
+                              'Resolute Forest Products and Fortress G…',
+               'publishedAt': '2018-02-07T18:25:23Z',
+               'source': {'id': None, 'name': 'Channelnewsasia.com'},
+               'title': 'As cryptominers eye Quebec, forest companies see '
+                        'opportunity',
+               'url': 'https://www.channelnewsasia.com/news/technology/as-cryptominers-eye-quebec--forest-companies-see-opportunity-9938302',
+               'urlToImage': 'http://www.channelnewsasia.com/image/8695434/16x9/991/529/1b7112db0e9c1f0955584f733dc80877/Ii/technology.png'},
+              {'author': 'The Canadian Press',
+               'description': 'The U.S. Department of Commerce slapped an '
+                              'overall tariff of 6.53% on about 25 Canadian '
+                              'plants, with a decision on more duties to come '
+                              'in March',
+               'publishedAt': '2018-01-10T03:58:55Z',
+               'source': {'id': 'financial-post', 'name': 'Financial Post'},
+               'title': '‘Completely unfair’: U.S. slaps Canadian newsprint '
+                        'producers with initial countervailing duties',
+               'url': 'http://business.financialpost.com/commodities/agriculture/canadian-newsprint-slapped-with-us-duties',
+               'urlToImage': 'https://financialpostcom.files.wordpress.com/2018/01/cpt141-the-associated-press.jpg'},
+              {'author': 'Canadian Press',
+               'description': 'TORONTO — Newsprint is the latest Canadian '
+                              'product to be hit with preliminary '
+                              'countervailing duties from the United States. '
+                              'The U.S. Department of Commerce slapped an '
+                              'overall tariff of 6.53 per cent on about 25 '
+                              'Canadian plants, mostly in Quebec and Ontario, '
+                              'f…',
+               'publishedAt': '2018-01-10T15:27:00Z',
+               'source': {'id': None, 'name': 'Huffingtonpost.ca'},
+               'title': 'Canadian Newsprint Producers The Latest To Feel Bite '
+                        'Of U.S. Protectionism',
+               'url': 'http://www.huffingtonpost.ca/2018/01/10/canadian-newsprint-producers-the-latest-to-feel-bite-of-u-s-protectionism_a_23329754/',
+               'urlToImage': 'https://o.aolcdn.com/images/dims3/GLOB/crop/1046x549+0+68/resize/1200x630!/format/jpg/quality/85/https%3A%2F%2Fs3.amazonaws.com%2Faion-media%2Fcanpr2%2F01-10-18%2FCPT141447906.jpg'},
+              {'author': None,
+               'description': 'Foreign Affairs Minister Chrystia Freeland and '
+                              'Natural Resources Minister Jim Carr are calling '
+                              'new U.S. duty rates against Canadian newsprint '
+                              '"unjustified."',
+               'publishedAt': '2018-01-10T16:05:52Z',
+               'source': {'id': None, 'name': 'Nationalobserver.com'},
+               'title': 'Canadian newsprint producers hit with initial U.S. '
+                        'countervailing duties',
+               'url': 'https://www.nationalobserver.com/2018/01/10/news/canadian-newsprint-producers-hit-initial-us-countervailing-duties',
+               'urlToImage': 'https://www.nationalobserver.com/sites/nationalobserver.com/files/img/2018/01/10/cpt141447906.jpg'},
+              {'author': 'Resolute Forest Products Inc.',
+               'description': 'US $ Q4 GAAP net income of $13 million or $0.14 '
+                              'per share / 2017 GAAP net loss of $84 million '
+                              'or $0.93 per share Adjusted EBITDA of $102 '
+                              'million / $364 million for the full year Higher '
+                              'realized pricing across most segments Further '
+                              '$51 million of debt repaid i…',
+               'publishedAt': '2018-02-01T12:30:00Z',
+               'source': {'id': None, 'name': 'Prnewswire.com'},
+               'title': 'Resolute Reports Preliminary Fourth Quarter and 2017 '
+                        'Results',
+               'url': 'https://www.prnewswire.com/news-releases/resolute-reports-preliminary-fourth-quarter-and-2017-results-672119923.html',
+               'urlToImage': 'https://content.prnewswire.com/images/prn_facebook_sharing_logo.jpg'},
+              {'author': 'Steve Dent',
+               'description': 'Bitcoin mining is a weird industry. Vast banks '
+                              'of dedicated computers solve complex equations '
+                              'to generate hashes worth a fraction of a coin, '
+                              'consuming huge amounts of power in the process. '
+                              'For such operations to be economically feasible '
+                              'nowadays, min...',
+               'publishedAt': '2018-02-26T18:30:00Z',
+               'source': {'id': 'engadget', 'name': 'Engadget'},
+               'title': "Bitcoin miners turn Quebec's cheap energy into cold "
+                        'cash',
+               'url': 'https://www.engadget.com/2018/02/26/bitcoin-mining-quebec-the-big-picture/',
+               'urlToImage': 'https://o.aolcdn.com/images/dims?thumbnail=1200%2C630&quality=80&image_uri=https%3A%2F%2Fo.aolcdn.com%2Fimages%2Fdims%3Fresize%3D2000%252C2000%252Cshrink%26image_uri%3Dhttp%253A%252F%252Fo.aolcdn.com%252Fhss%252Fstorage%252Fmidas%252Ff1d08f1d89b7c31d34a7940877956124%252F206160912%252FRTX4RXYW.jpeg%26client%3Da1acac3e1b3290917d92%26signature%3D26c72b1cd3c84de8942f2b606bf69aff2bafa9a3&client=cbc79c14efcebee57402&signature=a6ae846656a72247faaa0a2f8cec075f0a63ade1'},
+              {'author': None,
+               'description': 'C$ read more',
+               'publishedAt': '2018-01-22T16:01:00Z',
+               'source': {'id': None, 'name': 'Sys-con.com'},
+               'title': 'FPInnovations and Resolute Forest Products Announce '
+                        'Investment in Pilot Project in Ontario to Produce '
+                        'Bio-Chemicals Derived from Wood',
+               'url': 'http://news.sys-con.com/node/4223434',
+               'urlToImage': ''},
+              {'author': 'BRENT JANG',
+               'description': 'Governor says softwood dispute has put hundreds '
+                              'of loggers in his state out of work',
+               'publishedAt': '2018-02-19T21:17:28Z',
+               'source': {'id': 'the-globe-and-mail',
+                          'name': 'The Globe And Mail'},
+               'title': 'Maine Governor seeks tariff exemption for New '
+                        'Brunswick lumber firms',
+               'url': 'https://www.theglobeandmail.com/report-on-business/industry-news/maine-governor-seeks-tariff-exemption-for-new-brunswick-lumber-firms/article38021837/',
+               'urlToImage': 'https://www.theglobeandmail.com/resizer/VPJ2iIaW-D_gyhQQZ86Seobqvqk=/1200x0/filters:quality(80)/arc-anglerfish-tgam-prod-tgam.s3.amazonaws.com/public/BTUAFK43NRGCJIDS5ORTSDLTNI.JPG'},
+              {'author': 'Rod Nickel',
+               'description': 'The duties, which went into effect on '
+                              'Wednesday, are ‘unfair, unwarranted and '
+                              'troubling,’ Foreign Minister Chrystia Freeland '
+                              'said in a statement',
+               'publishedAt': '2018-01-03T21:06:30Z',
+               'source': {'id': 'the-globe-and-mail',
+                          'name': 'The Globe And Mail'},
+               'title': 'Freeland criticizes U.S. softwood lumber duties, vows '
+                        'to push back',
+               'url': 'https://www.theglobeandmail.com/report-on-business/freeland-criticizes-us-softwood-lumber-duties-vows-to-push-back/article37486005/',
+               'urlToImage': 'https://www.theglobeandmail.com/resizer/zPI2erWAuH-akfA0F6VKURVxYGU=/1200x0/filters:quality(80)/arc-anglerfish-tgam-prod-tgam.s3.amazonaws.com/public/AUEX3EOKKBF6HC2VPDDTNIHRIQ.JPG'},
+              {'author': 'http://www.dailymail.co.uk/home/search.html?s=&authornamef=Reuters, '
+                         'By Reuters',
+               'description': 'By Rod NickelWINNIPEG, Manitoba, Jan 3 '
+                              '(Reuters) - The Canadian  government on '
+                              'Wednesday criticized the United States for a  '
+                              'decision to impose duties on...',
+               'publishedAt': '2018-01-03T18:19:40Z',
+               'source': {'id': 'daily-mail', 'name': 'Daily Mail'},
+               'title': 'Canada criticizes U.S. softwood lumber duties, vows '
+                        'to...',
+               'url': 'http://www.dailymail.co.uk/wires/reuters/article-5232699/Canada-criticizes-U-S-softwood-lumber-duties-vows-resist.html',
+               'urlToImage': 'http://i.dailymail.co.uk/i/pix/m_logo_636x382px.png'},
+              {'author': None,
+               'description': 'Public Enterprises Minister Lynne Brown says if '
+                              "board members of state-owned enterprises don't "
+                              'perform, the boards will be rotated.',
+               'publishedAt': '2018-01-30T11:46:05Z',
+               'source': {'id': None, 'name': 'Fin24.com'},
+               'title': 'Fin24.com | SOE board members must shape up or ship '
+                        'out, says Brown',
+               'url': 'https://www.fin24.com/Economy/soe-board-members-must-shape-up-or-ship-out-says-brown-20180130',
+               'urlToImage': 'http://cdn.24.co.za/files/Cms/General/d/428/5a08c3ac14264bca9229b53b5b5ff400.jpg'},
+              {'author': 'TERRY WEBER',
+               'description': 'A rundown of what to expect this trading day '
+                              "and the stocks that'll see action",
+               'publishedAt': '2018-01-10T12:32:18Z',
+               'source': {'id': 'the-globe-and-mail',
+                          'name': 'The Globe And Mail'},
+               'title': 'Before the Bell: What every Canadian investor needs '
+                        'to know today',
+               'url': 'https://www.theglobeandmail.com/globe-investor/inside-the-market/before-the-bell-what-every-canadian-investor-needs-to-know-today/article37553163/',
+               'urlToImage': 'https://www.theglobeandmail.com/resizer/HNbxpgLes7f3mYwR2RYbqhvQKD0=/1200x0/filters:quality(80)/arc-anglerfish-tgam-prod-tgam.s3.amazonaws.com/public/NYTJGBAVFFDEDNBYHMXWHL74UE.JPG'},
+              {'author': 'SA Transcripts',
+               'description': 'Hydro One (OTC:HRNNF) Q4 2017 Earnings '
+                              'Conference Call February 13, 2018 08:00 AM ET '
+                              'Executives Omar Javed - IR Mayo Schmidt - '
+                              'President and CEO Chris Lopez - S',
+               'publishedAt': '2018-02-13T19:44:06Z',
+               'source': {'id': None, 'name': 'Seekingalpha.com'},
+               'title': "Hydro One's (HRNNF) CEO Mayo Schmidt on Q4 2017 "
+                        'Results - Earnings Call Transcript',
+               'url': 'https://seekingalpha.com/article/4146234-hydro-ones-hrnnf-ceo-mayo-schmidt-q4-2017-results-earnings-call-transcript',
+               'urlToImage': 'https://static.seekingalpha.com/assets/og_image_410-b8960ce31ec84f7f12dba11a09fc1849b69b234e0f5f39d7c62f46f8692e58a5.png'}],
+ 'status': 'ok',
+ 'totalResults': 19}
