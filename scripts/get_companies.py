@@ -1,7 +1,12 @@
-import pandas as pd
-import numpy as np 
-import random 
+import pandas as pd 
+import random
+import json
 
-df = pd.read_csv('companies-3-18-2018.csv')
+csv = 'negative_companies.csv'
+df = pd.read_csv(csv)
+zipped = list(zip([str(e).lower() for e in df["Organization Name"]],
+	[",".join([f.strip() for f in str(e).lower().split(',')][:random.randint(1,len(str(e).split(',')))])\
+	 for e in df["Categories"]]))
 
-print(df.head)
+with open('negative_companies_processed.json','w') as out:
+	json.dump(zipped,out)

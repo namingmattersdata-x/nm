@@ -29,6 +29,7 @@ class Gatherer():
 		self.industries = [i.strip().lower() for i in industries.split(',')]
 		self.query = ""
 		self.features = defaultdict(float)
+		self.contexts = []
 
 	def gather_contexts(self, sources=["newsapi"]):
 		if "newsapi" in sources:
@@ -42,6 +43,8 @@ class Gatherer():
 		                                      language='en', # necessary to only maintain english? probably for now
 		                                      sort_by='relevancy',
 		                                      page=1)
+		# if 'totalResults' not in all_articles:
+		# 	return self
 		self.features["newsapi_totalResults"] = all_articles["totalResults"]
 		self.features["newsapi_rawResults"] = newsapi.get_everything(q='"' + self.entity + '"',
                                       language='en', 
@@ -121,33 +124,30 @@ class Gatherer():
 		self.features["ratio_orgs"] /= self.features["num_articles"]
 		return self
 
-	# def process_contexts(self):
-	# 	# basics to begin with.
-	# 	self.features["newsapi_rawResults"] = all_articles = newsapi.get_everything(q=self.query,
-	# 	                                      language='en', 
-	# 	                                      sort_by='relevancy',
-	# 	                                      page=1)
-	# 	return self
 
-companies = [("resolute","information technology, software"),("apple","forestry"),('resolute','forestry')]
+
+# companies = [("andrew's pets care services","pets, pet services"),
+# 				("whois","mobile apps, mobile, applications"),
+# 				('whosit','games, consumer products')]
+indices = (120,180)
+with open('team_negative_processed.json','r') as infile:
+	companies = json.load(infile)
+
 keys = ['ratio_orgs', 'newsapi_totalResults', 'root_mean_distance', 'num_orgs', 'num_non_orgs', 'num_titlecase', 'num_articles',
  'org_at_least_once', 'num_found', 'num_industries', 'ratio_case', 'newsapi_rawResults','avg_article_length']
-# segment this to write to a different csv every 20 companies or so, so that we dont lose everything if something  breaks
-for i in range((len(companies) // 20) + 1):
-	with open("contexts/record_contexts" + str(i) + ".csv", 'w') as out_context:
-		with open("features/record_features" + str(i) + ".csv", 'w') as out_features:
+
+for i in range((indices[0] // 20) , (indices[1]//20)):
+	print("{}, {}".format(20*i,20*(i+1)))
+	print ("beginning batch {}...".format(i))
+	with open("extra_negative_contexts/record_contexts" + str(i) + ".csv", 'w') as out_context:
+		with open("extra_negative_features/record_features" + str(i) + ".csv", 'w') as out_features:
 			out_features.write("{},{},{},{},{},{},{},{},{},{},{},{},{},{},{}\n".format(*(["name","industries"] + keys)))
 			for company in companies[20*i:20*(i+1)]:
 				current = Gatherer(company[0],company[1]).gather_contexts()
 				out_context.write(current.entity.replace(',',';') + "," + ";".join(current.industries) + "," + \
-							"4899".join([c.replace(',',';').replace('\n',' ') for c in current.contexts]) + "\n")
+							"4899".join([c.replace(',',';').replace('\n',' ').replace('\r',' ') for c in current.contexts]) + "\n")
 				out_features.write("{},{},{},{},{},{},{},{},{},{},{},{},{},{},{}\n"\
 					.format(*([current.entity.replace(',',';'),";".join(current.industries)] + \
 								[current.features[key] for key in keys])))
+	print ("completing batch {}...".format(i))
 
-
-
-# defaultdict(<class 'float'>, {'newsapi_totalResults': 130, 'newsapi_rawResults': 3247, 
-# 'root_mean_distance': 8165.489417929342, 'num_industries': 17.0, 'org_at_least_once': 3.0, 
-# 'num_orgs': 31.0, 'num_non_orgs': 82.0, 'ratio_orgs': 0.16729491438793764, 'num_found': 66.0, 
-# 'num_titlecase': 59.0, 'ratio_case': 0.5627705627705628, 'num_articles': 7.0})
