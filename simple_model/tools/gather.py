@@ -25,6 +25,22 @@ def text_from_html(body):
     return " ".join(t.strip() for t in visible_texts).encode('utf-8','ignore')
 
 class Gatherer():
+	# __slots__ = [
+	# 	"ratio_orgs",
+	# 	"newsapi_totalResults",
+	# 	"root_mean_distance",
+	# 	"num_orgs",
+	# 	"num_non_orgs",
+	# 	"num_titlecase",
+	# 	"num_articles",
+	# 	"org_at_least_once",
+	# 	"num_found",
+	# 	"num_industries",
+	# 	"ratio_case",
+	# 	"newsapi_rawResults",
+	# 	"avg_article_length"
+	# ]
+
 	def __init__(self, entity, industries):
 		self.entity = entity.lower()
 		self.industries = [i.strip().lower() for i in industries.split(',')]
@@ -32,7 +48,7 @@ class Gatherer():
 		self.features = defaultdict(float)
 		self.contexts = []
 
-	def gather_contexts(self, sources=["newsapi"]):
+	def gather(self, sources=["newsapi"]):
 		if "newsapi" in sources:
 			self.reach_news_api()
 		return self

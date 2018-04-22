@@ -17,7 +17,7 @@ for i in range((indices[0] // 20) , (indices[1]//20)):
 		with open("extra_negative_features/record_features" + str(i) + ".csv", 'w') as out_features:
 			out_features.write("{},{},{},{},{},{},{},{},{},{},{},{},{},{},{}\n".format(*(["name","industries"] + keys)))
 			for company in companies[20*i:20*(i+1)]:
-				current = Gatherer(company[0],company[1]).gather_contexts()
+				current = Gatherer(company[0],company[1]).gather()
 				out_context.write(current.entity.replace(',',';') + "," + ";".join(current.industries) + "," + \
 							"4899".join([c.replace(',',';').replace('\n',' ').replace('\r',' ') for c in current.contexts]) + "\n")
 				out_features.write("{},{},{},{},{},{},{},{},{},{},{},{},{},{},{}\n"\
