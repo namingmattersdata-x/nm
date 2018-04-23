@@ -3,6 +3,7 @@ import pandas as pd
 import numpy as np
 import json
 import os
+from sys import argv
 
 model = 'logistic'
 
@@ -13,8 +14,10 @@ coefficients = np.array(data["coefficients"])
 means = np.array(data["means"])
 sds = np.array(data["sds"])
 
-company = input("input desired company name... ")
-industries = input("input desired industries separated by a comma (,)... ")
+# company = input("input desired company name... ")
+# industries = input("input desired industries separated by a comma (,)... ")
+company = argv[1]
+industries = argv[2]
 
 process = Gatherer(company, industries).gather()
 
@@ -37,4 +40,7 @@ lincomb = row.values.dot(coefficients.T)
 sigmoid = np.exp(lincomb)
 p = (sigmoid/(1+sigmoid))[0]
 print(p)
+
+df = pd.DataFrame({"source":["nytimes"],"preview":["this is your COMPANY in context"],"date published":["April 20, 1997"],"risk score":["87%"]})
+df.to_csv("./cache/{}.{}.csv".format("_".join(process.entity.split()), "-".join(["_".join(i.split()) for i in process.industries])), index = False)
 
