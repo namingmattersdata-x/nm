@@ -45,7 +45,12 @@ def run_logistic(processed):
 
 def cache_top(model, processed=None):
 	if processed:
-		df = pd.DataFrame({"source":["nytimes"],"preview":["this is your COMPANY in context"],"date published":["April 20, 1997"],"risk score":["87%"]})
+		df_dict = {"source":[],"preview":[],"date published":[],"risk score":[]}
+		sort = sorted(processed.articles, key = lambda x:x["risk score"], reverse = True)
+		for dic in sort:
+			for key, value in dic.items():
+				df_dict[key].append(value)
+		df = pd.DataFrame(df_dict)
 		df.to_csv("./cache/{}/{}.{}.csv".format(model, "_".join(processed.entity.split()), "-".join(["_".join(i.split()) for i in processed.industries])), index = False)
 
 def run_rf(processed):

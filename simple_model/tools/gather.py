@@ -25,28 +25,13 @@ def text_from_html(body):
     return " ".join(t.strip() for t in visible_texts).encode('utf-8','ignore')
 
 class Gatherer():
-	# __slots__ = [
-	# 	"ratio_orgs",
-	# 	"newsapi_totalResults",
-	# 	"root_mean_distance",
-	# 	"num_orgs",
-	# 	"num_non_orgs",
-	# 	"num_titlecase",
-	# 	"num_articles",
-	# 	"org_at_least_once",
-	# 	"num_found",
-	# 	"num_industries",
-	# 	"ratio_case",
-	# 	"newsapi_rawResults",
-	# 	"avg_article_length"
-	# ]
-
 	def __init__(self, entity, industries):
 		self.entity = entity.lower()
 		self.industries = [i.strip().lower() for i in industries.split(',')]
 		self.query = ""
 		self.features = defaultdict(float)
 		self.contexts = []
+		self.articles = []
 
 	def gather(self, sources=["newsapi"]):
 		if "newsapi" in sources:
@@ -130,6 +115,9 @@ class Gatherer():
 				self.features["ratio_case"] += float(num_titlecase) / num_found if num_found != 0 else 0
 				self.features["avg_article_length"] +=  len(text)
 				self.features["num_articles"] += 1
+				score = 2*(orgs/(orgs+nonorgs)) + (float(num_titlecase) / num_found if num_found != 0 else 0)
+				self.articles.append({"source":article["source"]["name"],"preview":url,
+										"date published":article["publishedAt"],"risk score":score})
 
 			except Exception as e:
 				print("Error at url (newsapi):\n{}\n{}".format(url,e))
