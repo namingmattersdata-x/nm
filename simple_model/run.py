@@ -4,43 +4,67 @@ import numpy as np
 import json
 import os
 from sys import argv
+import _pickle
 
-model = 'logistic'
+def run_logistic(processed=None):	
+	with open('simple_model/models/logistic_coefficients.json', 'r') as infile:
+		data = json.load(infile)
 
-with open('simple_model/models/{}_coefficients.json'.format(model), 'r') as infile:
-	data = json.load(infile)
+	coefficients = np.array(data["coefficients"])
+	means = np.array(data["means"])
+	sds = np.array(data["sds"])
 
-coefficients = np.array(data["coefficients"])
-means = np.array(data["means"])
-sds = np.array(data["sds"])
+	keys = ['ratio_orgs', 'newsapi_totalResults', 'root_mean_distance', 'num_orgs', 'num_non_orgs', 
+			'num_titlecase', 'num_articles', 'org_at_least_once', 'num_found', 'num_industries', 
+			'ratio_case', 'newsapi_rawResults','avg_article_length']
 
-# company = input("input desired company name... ")
-# industries = input("input desired industries separated by a comma (,)... ")
-company = argv[1]
-industries = argv[2]
+	observation = [1, ]
+	for key in keys:
+		observation.append(processed.features[key])
 
-process = Gatherer(company, industries).gather()
+	row = pd.DataFrame([observation,], columns = ['intercept'] + keys)
+	row["ratio_results"] = 0 if row["newsapi_rawResults"][0] == 0 else \
+								row["newsapi_totalResults"][0] / row["newsapi_rawResults"][0]
 
-keys = ['ratio_orgs', 'newsapi_totalResults', 'root_mean_distance', 'num_orgs', 'num_non_orgs', 
-		'num_titlecase', 'num_articles', 'org_at_least_once', 'num_found', 'num_industries', 
-		'ratio_case', 'newsapi_rawResults','avg_article_length']
+	# empty = False
+	# if row["newsapi_totalResults"][0] == 0:
+	# 	empty = True
 
-observation = [1, ]
-for key in keys:
-	observation.append(process.features[key])
+	# normalize
+	row.iloc[0,1:] = (row.iloc[0,1:] - means) / sds
 
-row = pd.DataFrame([observation,], columns = ['intercept'] + keys)
-row["ratio_results"] = 0 if row["newsapi_rawResults"][0] == 0 else \
-							row["newsapi_totalResults"][0] / row["newsapi_rawResults"][0]
+	lincomb = row.values.dot(coefficients.T)
+	sigmoid = np.exp(lincomb)
+	p = (sigmoid/(1+sigmoid))[0]
 
-# normalize
-row.iloc[0,1:] = (row.iloc[0,1:] - means) / sds
+	# if empty:
+	# 	p = 0
 
-lincomb = row.values.dot(coefficients.T)
-sigmoid = np.exp(lincomb)
-p = (sigmoid/(1+sigmoid))[0]
-print(p)
+	return(p)
 
-df = pd.DataFrame({"source":["nytimes"],"preview":["this is your COMPANY in context"],"date published":["April 20, 1997"],"risk score":["87%"]})
-df.to_csv("./cache/{}.{}.csv".format("_".join(process.entity.split()), "-".join(["_".join(i.split()) for i in process.industries])), index = False)
+
+def cache_top(processed=None):
+	if processed:
+		df = pd.DataFrame({"source":["nytimes"],"preview":["this is your COMPANY in context"],"date published":["April 20, 1997"],"risk score":["87%"]})
+		df.to_csv("./cache/{}.{}.csv".format("_".join(processed.entity.split()), "-".join(["_".join(i.split()) for i in processed.industries])), index = False)
+
+def run_rf():
+	with open('simple_model/models/rf.pkl', 'rb') as infile:
+		rf = _pickle.load(infile)
+
+if __name__ == "__main__":
+	company = argv[1]
+	industries = argv[2]
+	process = Gatherer(company, industries).gather()
+
+	cache_top(processed)
+
+	run_rf(process)
+
+
+
+
+
+
+
 
