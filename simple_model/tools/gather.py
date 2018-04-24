@@ -115,7 +115,8 @@ class Gatherer():
 				self.features["ratio_case"] += float(num_titlecase) / num_found if num_found != 0 else 0
 				self.features["avg_article_length"] +=  len(text)
 				self.features["num_articles"] += 1
-				score = 2*(orgs/(orgs+nonorgs)) + (float(num_titlecase) / num_found if num_found != 0 else 0)
+				score = 2*((orgs/(orgs+nonorgs)) if orgs+nonorgs != 0 else 0) \
+								+ (float(num_titlecase) / num_found if num_found != 0 else 0)
 				self.articles.append({"source":article["source"]["name"],"preview":url,
 										"date published":article["publishedAt"],"risk score":score})
 

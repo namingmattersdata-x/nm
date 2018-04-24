@@ -48,9 +48,10 @@ def cache_top(model, processed=None):
 		df_dict = {"source":[],"preview":[],"date published":[],"risk score":[]}
 		sort = sorted(processed.articles, key = lambda x:x["risk score"], reverse = True)
 		for dic in sort:
-			for key, value in dic.items():
-				df_dict[key].append(value)
-		df = pd.DataFrame(df_dict)
+			if dic["risk score"] >= 1:
+				for key, value in dic.items():
+					df_dict[key].append(value)
+		df = pd.DataFrame(df_dict).iloc[:10,]
 		df.to_csv("./cache/{}/{}.{}.csv".format(model, "_".join(processed.entity.split()), "-".join(["_".join(i.split()) for i in processed.industries])), index = False)
 
 def run_rf(processed):
@@ -89,6 +90,7 @@ if __name__ == "__main__":
 	base = .2
 	while probability > base:
 		base += .2
+		base = round(base,1)
 	class_ = ascend[base]
 
 	print("PROBABILITY: {}\nCLASS: {}".format(probability,class_))
