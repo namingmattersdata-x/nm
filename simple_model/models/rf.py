@@ -28,8 +28,14 @@ y = full.iloc[:,-1]
 random_forest = RandomForestClassifier(n_estimators=1000)
 random_forest.fit(X, y)
 
-# print(random_forest.score(X_test,y_test))
-# ps = np.array([e[1] for e in random_forest.predict_proba(X)])
+# cuts = [[],[]]
+# pss = [sorted(np.array([e[1] for e in random_forest.predict_proba(X[full["class"]==0])])),
+# 		sorted(np.array([e[1] for e in random_forest.predict_proba(X[full["class"]==1])]))]
+# for j in range(2):
+# 	for i in range(4):
+# 		cuts[j].append(pss[j][int(((i+1)/5)*len(pss[j]))])
+# print(cuts)
+
 # print(ps[X["newsapi_rawResults"]==0])
 
 # X.iloc[1,0:11] = 0
