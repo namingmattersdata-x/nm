@@ -1,0 +1,289 @@
+name,industries,ratio_orgs,newsapi_totalResults,root_mean_distance,num_orgs,num_non_orgs,num_titlecase,num_articles,org_at_least_once,num_found,num_industries,ratio_case,newsapi_rawResults,avg_article_length
+fuck,consumer electronics;electronics;hardware,0,239,2876.28534,1,44,17,16,1,36,40,0.245833333,17041,9299.3125
+resolute,software,0.007352941,86,8365.517982,1,24,13,17,1,27,87,0.235294118,3321,16967.76471
+resolute forest products,aerospace;space travel,0,0,0,0,0,0,0,0,0,0,0,71,0
+apple,life science;biopharma,1.2,66,4986.605541,66,24,52,15,9,54,42,0.916666667,114232,11600.26667
+lyft,consumer software,0,0,0,0,0,0,0,0,0,0,0,6012,0
+spacex,document management,0,0,0,0,0,0,0,0,0,0,0,10156,0
+wework,public transportation,0.009259259,7,4567.721453,2,21,0,6,2,19,11,0,1288,19692.66667
+massachusetts institute of technology,brewing,0,7,4844.470968,5,0,0,6,5,6,10,0,2464,18790.5
+nvidia,digital entertainment,0.833333333,6,4061.999443,16,12,0,3,3,16,3,0,14291,10313.66667
+dropbox,energy storage,0,0,0,0,0,0,0,0,0,0,0,5039,0
+kickstarter,product design,0,38,2306.997167,0,40,32,15,0,35,50,0.906666667,7205,12527.8
+stripe,lending;energy management;local,0.074295334,575,4979.859707,17,447,167,15,4,241,48,0.669716852,5917,12850.2
+doordash,cloud computing,0,4,10042.29643,0,1,0,4,0,4,30,0,311,21060.5
+reddit,contact management;air transportation,0,0,0,0,0,0,0,0,0,0,0,18359,0
+toutiao,dietary supplements;automotive;animation,0,2,1599.510486,0,4,4,2,0,4,2,1,241,11012.5
+robinhood,outdoor advertising,0,0,0,0,0,0,0,0,0,0,0,628,0
+siemens ag,cyber security;public transportation,0,17,3456.176652,7,0,0,9,7,13,9,0,669,27385.11111
+linkedin,farming,0,124,1921.330165,4,24,1,16,4,29,49,0.03125,29428,13083.8125
+zscaler,mobile payments;point of sale,0,0,0,0,0,0,0,0,0,0,0,263,0
+ring,hotel,0,2421,5386.550036,0,67,5,16,0,206,111,0.053645833,56268,15173.375
+theranos,e-learning,0,0,0,0,0,0,0,0,0,0,0,717,0
+nutanix,online auctions;construction,0.094202899,3,3512.576569,13,70,29,2,1,29,2,1,343,14875.5
+ourcrowd,project management,0,0,0,0,0,0,0,0,0,0,0,126,0
+airtel,meeting software;embedded systems,0,3,4961.755297,8,0,4,2,2,4,2,1,3110,47478.5
+ecobee,crm,0,0,0,0,0,0,0,0,0,0,0,325,0
+sofi,electric vehicle,0,0,0,0,0,0,0,0,0,0,0,813,0
+mayo clinic,digital marketing;digital entertainment,0,3,2779.799655,2,1,3,2,1,3,2,1,2459,15977
+rent the runway,ad targeting,0,0,0,0,0,0,0,0,0,0,0,252,0
+deliveroo,ride sharing,0,15,3929.278455,0,31,28,14,0,28,16,1,533,12812.21429
+uber,file sharing,0.021515679,54,4462.202342,15,462,231,20,5,232,23,0.995454545,30873,11308.25
+square,eyewear,0.093911249,109,2218.886574,11,48,31,17,3,43,73,0.428921569,101513,11531.23529
+grab,printing;accounting,0.015873016,1753,3170.738045,1,54,26,9,1,43,51,0.457264957,58391,8957
+swiggy,flash storage;wellness,0,1,835,0,1,1,1,0,1,1,1,137,9620
+airtable,consumer goods;email,0.168826748,30,3899.478989,20,263,134,16,8,141,132,0.808333333,82,10751.375
+outdoor voices,security;natural language processing;loyalty programs,0,5,1560.800993,0,4,4,4,0,4,9,1,172,12700.75
+virginia tech,homeland security;privacy,0.425770308,109,3861.766828,41,19,43,17,15,45,56,0.985060691,5534,9681.705882
+circle,sponsorship,0.279069767,207,5011.671981,11,110,46,18,5,71,95,0.485251323,44709,20696.61111
+boston scientific,enterprise software;e-commerce platforms,0,0,0,0,0,0,0,0,0,0,0,586,0
+general electric ,content delivery network,0,1,0,0,0,0,0,0,0,0,0,4449,0
+mighty,predictive analytics,0,4,4898.5,0,0,2,2,0,2,2,1,15332,40504.5
+merck & co,podcast;sales;small and medium businesses,0,34,3689.355435,5,0,37,15,5,37,56,1,122,10170.26667
+23andme,data mining;home services,0,1,773,0,1,0,1,0,1,1,0,741,11649
+ericsson,aerospace,0,12,9035.034321,84,0,46,10,10,48,25,0.975714286,2303,28352.5
+wecash,telecommunications;credit,0.24316272,5,1805.001479,25,68,61,5,3,74,36,0.717826087,8,23378.6
+super league gaming,payments,0,0,0,0,0,0,0,0,0,0,0,6,0
+q4,consulting;family,0,2341,6470.525074,0,487,99,9,0,99,83,1,25667,20858.11111
+lenovo,solar;seo,0.306666667,45,3282.666077,67,10,45,15,15,46,23,0.986666667,8040,12127.2
+cloudian,sns;universities;nan,0,2,4015.011986,0,10,4,1,0,4,2,1,79,6831
+flatiron health,physical security;predictive analytics,0,5,2307.849831,5,1,6,5,4,6,7,1,131,11850
+hqtrivia,insurtech,0,0,0,0,0,0,0,0,0,0,0,74,0
+bitmain,secondary education;transaction processing,0,2,294.0493156,0,1,1,1,0,1,2,1,461,14575
+soundcloud,search engine;physical security,0,76,6162.898033,0,31,12,18,0,30,39,0.361111111,6363,20195.33333
+alibaba,billing,0.411278195,33,2376.214022,120,27,75,19,18,75,29,1,6759,9670.368421
+taboola,developer apis,0,0,0,0,0,0,0,0,0,0,0,2854,0
+hubspot,geospatial;furniture,0.033844943,14,8628.246953,7,98,9,11,4,51,22,0.401515152,1278,29308.27273
+sonos,cloud security,0.131578947,2,2706.027026,5,20,6,2,1,6,2,1,2451,21205.5
+moovit,data visualization,0,0,0,0,0,0,0,0,0,0,0,34,0
+xiaomi,market research;business travel,0.135250979,124,1621.373475,50,392,166,17,9,167,32,0.994652406,6990,10195.41176
+tesla,data visualization;sales automation,0,4,7110.692169,0,24,10,4,0,10,7,1,20484,17640.25
+toys r us,facial recognition,0,8,1959.75429,0,2,2,2,0,2,4,1,5315,11116.5
+kakao,fintech,0.11,23,3747.859926,20,102,54,15,6,57,77,0.911111111,247,11681.8
+ripple,advice;logistics,0.007936508,586,2434.669271,3,220,85,18,1,93,29,0.80043573,11031,9040.611111
+zomato,diabetes,0,0,0,0,0,0,0,0,0,0,0,238,0
+atlassian,intrusion detection;cloud management,0,1,0,0,0,0,0,0,0,0,0,851,0
+novartis,vacation rental,0,0,0,0,0,0,0,0,0,0,0,2508,0
+postmates,virtual goods;business intelligence,0,0,0,0,0,0,0,0,0,0,0,595,0
+kensho,call center,0,0,0,0,0,0,0,0,0,0,0,119,0
+wealthsimple,office administration,0,0,0,0,0,0,0,0,0,0,0,101,0
+groupon,customer service;local,0.526573947,544,1442.50264,100,162,84,16,10,97,81,0.907451923,1706,7042.8125
+grubhub,green building,0,0,0,0,0,0,0,0,0,0,0,754,0
+hna group,advertising platforms;child care;private social networking,0,0,0,0,0,0,0,0,0,0,0,645,0
+bank of ireland,industrial automation;content marketing,0,0,0,0,0,0,0,0,0,0,0,649,0
+collective health,news;secondary education;quantified self,1.131578947,81,6150.318759,72,40,102,19,7,118,286,0.381578947,162,15977.36842
+bugcrowd,collaborative consumption;internet radio,0,0,0,0,0,0,0,0,0,0,0,104,0
+urban ladder,homeland security,0,0,0,0,0,0,0,0,0,0,0,34,0
+tripactions,ad targeting;market research,0,0,0,0,0,0,0,0,0,0,0,27,0
+atom tickets,intrusion detection,0,0,0,0,0,0,0,0,0,0,0,149,0
+farfetch,consumer software;web apps,0,0,0,0,0,0,0,0,0,0,0,377,0
+netflix,web apps,0.116666667,42,5626.750298,59,15,43,16,16,44,20,0.995192308,47477,16244.75
+dollar shave club,travel accommodations,0,0,0,0,0,0,0,0,0,0,0,367,0
+palo alto networks,advertising;cloud security;reservations,0.299464556,138,2874.419754,92,230,171,18,12,171,108,1,772,11674.72222
+skyroam,pc games;sustainability,0,0,0,0,0,0,0,0,0,0,0,24,0
+houzz,market research,0,1,6426,0,1,1,1,0,1,1,1,499,30043
+cloudflare,collaborative consumption,0,0,0,0,0,0,0,0,0,0,0,996,0
+gopro,publishing,0.003319036,34,11812.75798,3,526,1,16,2,258,37,0.001388889,3925,37338.5
+ant financial,property management;private social networking,0,1,1039,1,0,1,1,1,1,1,1,1073,8805
+jd finance,battery;skill assessment,0,0,0,0,0,0,0,0,0,0,0,19,0
+flipkart,virtual reality;ad server,0.035714286,6,1903.531265,5,23,16,4,2,18,4,0.75,2061,10462
+shopify,autonomous vehicles,0.111111111,4,1871.395608,1,11,8,3,1,8,4,1,1434,11415.33333
+ihs markit ,civil engineering;clean energy,0,23,1538.104636,0,0,0,10,0,41,23,0,2300,16170.6
+solarisbank ag,insurance;govtech,0,0,0,0,0,0,0,0,0,0,0,1,0
+mobike,air transportation;search engine;photography,0,6,6642.550593,0,12,6,6,0,8,9,0.833333333,296,18237.5
+skydio,public safety;higher education,0,0,0,0,0,0,0,0,0,0,0,131,0
+blockchain,mobile,0.026223776,4058,6148.836707,3,114,96,13,3,147,187,0.494761905,30100,14538.07692
+penny,app discovery;privacy;delivery,0.221288515,1563,4923.307531,48,88,56,16,3,72,144,0.522395833,15467,14170.4375
+biocatch,space travel;advertising platforms,0,0,0,0,0,0,0,0,0,0,0,31,0
+buzzfeed,collectibles;psychology,0.180769231,110,2827.114088,32,52,4,15,3,61,34,0.2,12289,11209.53333
+giosis,content marketing,0,0,0,0,0,0,0,0,0,0,0,20,0
+alibaba group,auto insurance,0,1,0,0,0,0,0,0,0,0,0,2071,0
+app annie,a/b testing,2,6,7757.493643,8,4,20,4,4,20,28,1,361,24975.25
+qualtrics,photography;delivery service;finance,0,13,8231.478559,1,8,14,11,1,14,45,1,200,33420.72727
+nestaway,coupons,0,0,0,0,0,0,0,0,0,0,0,19,0
+skype,wellness,0,34,3190.998475,16,2,18,15,13,18,50,1,7246,13374.4
+goat,logistics,0.0078125,24,9062.688031,2,52,15,16,1,41,33,0.208333333,7054,28235.125
+andrew's dogs,pets,0,0,0,0,0,0,0,0,0,0,0,0,0
+twilbo,software;information technology,0,0,0,0,0,0,0,0,0,0,0,0,0
+shit,peer to peer,0,18,16468.79046,0,37,3,17,0,40,17,0.022058824,29391,26355.76471
+whosit,mobile apps,0,0,0,0,0,0,0,0,0,0,0,3,0
+razer,medical,0.147321429,13,4190.573022,17,85,50,12,6,53,18,0.979166667,1855,19927.66667
+symantec,application performance management;health care,0.947368421,37,3354.380895,69,7,48,19,18,48,35,1,3848,13364.57895
+index,outdoors,0.025,200,6019.766405,2,34,21,16,2,35,40,0.712053571,85529,14793
+glassdoor,travel accommodations;facilities support services,0,0,0,0,0,0,0,0,0,0,0,1388,0
+alteryx; inc.,test and measurement,0,0,0,0,0,0,0,0,0,0,0,41,0
+family pet,call center;car sharing,0,0,0,0,0,0,0,0,0,0,0,319,0
+industrious,transaction processing;video chat,0,0,0,0,0,0,0,0,0,0,0,954,0
+atomwise,supply chain management;lifestyle;paas,0,2,20354.80567,0,2,2,2,0,2,8,1,41,35423.5
+bigbasket,web apps,0,0,0,0,0,0,0,0,0,0,0,174,0
+visa,content creators,0,10,4277.744131,0,9,9,8,0,11,12,0.75,23457,19280.375
+whoop,employee benefits,0,0,0,0,0,0,0,0,0,0,0,950,0
+nigeriannation,freelance,0,0,0,0,0,0,0,0,0,0,0,0,0
+anthranilate,insurance,0,0,0,0,0,0,0,0,0,0,0,8,0
+theorin,automotive,0,0,0,0,0,0,0,0,0,0,0,1,0
+hijackers,real estate,0,10,6315.788713,0,5,0,4,0,5,4,0,711,19517.5
+interconnectivity,software,0,83,4252.716789,0,24,5,16,0,23,40,0.135416667,455,12726.5625
+samme,tobacco,0,0,0,0,0,0,0,0,0,0,0,7,0
+based,film,0,39272,2065.887088,0,62,9,17,0,79,255,0.16063255,668060,7808.117647
+spinsterish,music,0,0,0,0,0,0,0,0,0,0,0,1,0
+insecty,news media,0,0,0,0,0,0,0,0,0,0,0,0,0
+occult,health care,0,19,15652.57457,0,60,28,18,0,72,52,0.125,1670,39071.38889
+serio-comical,steel,0,0,0,0,0,0,0,0,0,0,0,0,0
+servo-motor,software,0,23,7141.706262,0,0,0,1,0,1,6,0,225,23523
+photobooks,electronics,0,0,0,0,0,0,0,0,0,0,0,43,0
+transcription,public utilities,0,24,32322.33333,0,3,0,3,0,3,3,0,5214,48078.33333
+grottos,publishing,0,0,0,0,0,0,0,0,0,0,0,50,0
+kitskonstabels,timber,0,0,0,0,0,0,0,0,0,0,0,0,0
+trailing,tobacco,0,85,1683.528057,0,30,0,15,0,20,110,0,18033,13728.33333
+laminates,education,0.25,4,9725.258178,1,4,3,4,1,5,11,0.5,197,34127.75
+plaguey,aerospace,0,0,0,0,0,0,0,0,0,0,0,2,0
+superheroines,telecommunications,0,0,0,0,0,0,0,0,0,0,0,53,0
+linkify,transportation,0,0,0,0,0,0,0,0,0,0,0,8,0
+profuse,film,0,29,2824.731029,0,16,0,16,0,16,130,0,251,10404.9375
+chimerism,energy,0,1,0,0,0,0,0,0,0,0,0,34,0
+timelord,hospitality,0,0,0,0,0,0,0,0,0,0,0,23,0
+commoditizes,electronics,0,0,0,0,0,0,0,0,0,0,0,13,0
+serially,insurance,0,14,9794.443362,0,8,0,8,0,8,23,0,565,31932.625
+urtication,automotive,0,0,0,0,0,0,0,0,0,0,0,0,0
+brasswind,food,0,2,4220.203863,2,0,2,2,2,2,6,1,3,34715.5
+readdress,entertainment,0,0,0,0,0,0,0,0,0,0,0,50,0
+seafarers,education,0.064705882,27,4890.386606,6,170,10,17,3,78,52,0.178431373,272,14279.05882
+lovegrass,construction,0,0,0,0,0,0,0,0,0,0,0,0,0
+flux,news media,0,11,2167.129914,0,10,0,10,0,10,13,0,5408,11715.4
+slowdowns,water,0,58,4407.792969,0,43,0,19,0,24,55,0,1121,16058.21053
+friction,agriculture,0,810,6935.598746,0,19,1,18,0,27,72,0.018518519,10948,22787.33333
+mipmap,insurance,0,0,0,0,0,0,0,0,0,0,0,41,0
+kingmakers,publishing,0,2,22964.84306,0,3,0,2,0,3,4,0,170,58506
+lawn-chair,information,0,27,4377.700717,0,0,0,1,0,1,7,0,232,17477
+cliffhang,hospitality,0,0,0,0,0,0,0,0,0,0,0,3,0
+worksheet,entertainment,0.038961039,16,5622.251526,12,55,23,14,1,46,27,0.409774436,1283,22606.71429
+pyrotechnical,defense,0,3,5244.911296,0,2,0,2,0,2,14,0,18,21350.5
+molecules,electricity,0,277,1820.413839,0,110,6,13,0,66,30,0.061050061,9195,10852.23077
+solitaries,film,0,1,2965.637725,0,1,0,1,0,1,17,0,4,21132
+mouseover,music,0,7,3614.133435,0,5,0,5,0,5,10,0,81,13818.8
+preservative,construction,0,21,3757.322189,0,262,3,16,0,123,34,0.032429245,711,18036.1875
+torbie,pharmaceutical,0,0,0,0,0,0,0,0,0,0,0,27,0
+thible,timber,0,0,0,0,0,0,0,0,0,0,0,0,0
+phizog,fishing,0,0,0,0,0,0,0,0,0,0,0,0,0
+gowpen,electricity,0,0,0,0,0,0,0,0,0,0,0,0,0
+fouter,software,0,0,0,0,0,0,0,0,0,0,0,1,0
+bible,steel,0,217,3442.656397,0,1392,117,17,0,126,33,0.880647911,14287,16928.70588
+drey,construction,0,0,0,0,0,0,0,0,0,0,0,62,0
+cagoule,education,0,0,0,0,0,0,0,0,0,0,0,19,0
+scenographic,fruit,0,0,0,0,0,0,0,0,0,0,0,12,0
+promptuary,education,0,0,0,0,0,0,0,0,0,0,0,0,0
+grumous,tobacco,0,0,0,0,0,0,0,0,0,0,0,0,0
+stuggy,tobacco,0,0,0,0,0,0,0,0,0,0,0,0,0
+feculent,broadcasting,0,0,0,0,0,0,0,0,0,0,0,20,0
+bort,film,0,8,5550.508837,0,14,5,8,0,12,104,0.5,127,17601.5
+noema,music,0,2,16669.71406,0,0,1,2,0,2,32,0.5,14,51845.5
+merism,transportation,0,0,0,0,0,0,0,0,0,0,0,2,0
+battology,health care,0,0,0,0,0,0,0,0,0,0,0,0,0
+debitage,defense,0,0,0,0,0,0,0,0,0,0,0,2,0
+technetronic,real estate,0,0,0,0,0,0,0,0,0,0,0,3,0
+licorice,news media,0,2,7195.982864,0,118,15,2,0,48,2,0.33046683,590,16478
+backpack,tobacco industry,0,1,5886,0,1,0,1,0,1,1,0,11471,51773
+paddlebox,mining,0,0,0,0,0,0,0,0,0,0,0,0,0
+transportable,fruit,0,11,1526.751835,0,10,0,10,0,10,42,0,383,9985.8
+scenographic,entertainment,0,1,688,0,1,0,1,0,1,1,0,12,7084
+joyrider,tobacco,0,0,0,0,0,0,0,0,0,0,0,19,0
+forties,fishing,0,10,6245.572328,0,7,2,8,0,8,10,0.25,1101,24330.625
+magnus,construction,0,60,2410.643752,1,59,51,16,1,53,26,0.993055556,2967,11181.3125
+airo,education,0,0,0,0,0,0,0,0,0,0,0,37,0
+airol,chemical,0,0,0,0,0,0,0,0,0,0,0,0,0
+harte,financial services,0,8,14815.8591,1,17,14,6,1,14,10,1,393,30643.5
+silkan,fruit,0,0,0,0,0,0,0,0,0,0,0,0,0
+thora,automotive,0,0,0,0,0,0,0,0,0,0,0,84,0
+skyrad,petroleum,0,0,0,0,0,0,0,0,0,0,0,0,0
+verus,real estate,0,0,0,0,0,0,0,0,0,0,0,47,0
+airal,tobacco,0,0,0,0,0,0,0,0,0,0,0,0,0
+thory,aerospace,0,0,0,0,0,0,0,0,0,0,0,3,0
+skyrta,water,0,0,0,0,0,0,0,0,0,0,0,0,0
+harto,telecommunications,0,0,0,0,0,0,0,0,0,0,0,21,0
+cloudary,real estate,0,0,0,0,0,0,0,0,0,0,0,0,0
+purecloud,automotive,0,0,0,0,0,0,0,0,0,0,0,21,0
+cloudlayer,financial services,0,0,0,0,0,0,0,0,0,0,0,0,0
+echocloud,chemical,0,0,0,0,0,0,0,0,0,0,0,0,0
+cloudloop,fishing,0,0,0,0,0,0,0,0,0,0,0,0,0
+activecloud,entertainment,0,0,0,0,0,0,0,0,0,0,0,0,0
+cloudable,blockchain,0,0,0,0,0,0,0,0,0,0,0,0,0
+clouder,internet of things,0,0,0,0,0,0,0,0,0,0,0,9,0
+appmaker,chemical,0,0,0,0,0,0,0,0,0,0,0,3,0
+safe-deposit,financial services,0,9,1792.5,0,2,0,2,0,2,2,0,296,9671
+stenotype,consulting,0,0,0,0,0,0,0,0,0,0,0,4,0
+knead,cloud computing,0,0,0,0,0,0,0,0,0,0,0,921,0
+dimestore,financial services,0,0,0,0,0,0,0,0,0,0,0,10,0
+harpischords,agriculture,0,0,0,0,0,0,0,0,0,0,0,0,0
+chatlines,automotive,0,1,1543,0,1,0,1,0,1,1,0,4,11406
+mantel,chemical,0.071428571,14,16180.35595,6,39,29,12,2,42,63,0.666666667,647,50886.25
+stirfry,agriculture,0,0,0,0,0,0,0,0,0,0,0,25,0
+daytrader,internet of things,0,0,0,0,0,0,0,0,0,0,0,12,0
+excel,apparel,0,71,2458.825039,0,15,7,12,0,16,48,0.5,15211,16475.58333
+bauble,toys,0,7,2142.506586,0,8,0,7,0,8,7,0,259,12738
+spot,tech,0.018099548,9741,4748.776258,12,137,49,17,1,84,136,0.355882353,162306,12578.76471
+pair,tech,0,6492,2997.073916,0,111,9,18,0,69,107,0.194444444,138121,9198.888889
+croco,food,0,1,285.3697893,0,8,1,1,0,4,3,0.25,42,4065
+feather,entertainment,0,165,7883.118684,0,81,29,17,0,54,78,0.350490196,5357,22566.94118
+r-chive,tech,0,0,0,0,0,0,0,0,0,0,0,0,0
+shaft,boating,0,4,5530.851861,0,4,0,4,0,4,5,0,3914,19775.25
+tiger mom,tutoring/academic,0,0,0,0,0,0,0,0,0,0,0,57,0
+black rhino,glasses,0,0,0,0,0,0,0,0,0,0,0,208,0
+pot o gold,food,0,14,0,0,0,0,0,0,0,0,0,43,0
+slip ink,office supplies,0,0,0,0,0,0,0,0,0,0,0,0,0
+cellblock,pharmaceutical,0,0,0,0,0,0,0,0,0,0,0,225,0
+big fishing,fishing;outdoor recreation,0,19,3190.657558,0,14,1,15,0,15,145,0.066666667,18,17520.53333
+data crunch,big data,0,0,0,0,0,0,0,0,0,0,0,12,0
+orzo,finance,0,0,0,0,0,0,0,0,0,0,0,209,0
+hedolo,tech,0,0,0,0,0,0,0,0,0,0,0,0,0
+ice coast,beverage,0,0,0,0,0,0,0,0,0,0,0,5,0
+phamous,entertainment,0,0,0,0,0,0,0,0,0,0,0,1,0
+pocket lock,security,0,0,0,0,0,0,0,0,0,0,0,0,0
+wonka,candy,0.109375,126,4350.165993,4,230,131,16,3,135,72,0.963869464,787,16241.625
+hammer head,construction,0,1,2409.335731,0,2,3,1,0,3,16,1,62,8862
+star cash,finance,0,0,0,0,0,0,0,0,0,0,0,3,0
+grey steam,transportation,0,0,0,0,0,0,0,0,0,0,0,0,0
+honeydew,tech,0,6,14845.61212,0,5,1,6,0,6,62,0.166666667,228,39329.5
+great!,apparel,0,3031,0,0,0,0,0,0,0,0,0,597449,0
+logic,finance,0.045564893,1285,2547.68951,14,105,32,17,2,70,86,0.166625474,31227,10780.11765
+fork and knife,food,0,28,5236.262864,0,34,0,15,0,28,171,0,61,21041.73333
+temper,apparel,0,19,5552.679068,0,20,2,16,0,22,45,0.125,6913,16689.25
+steve,hardware;computers,0,2483,3205.918351,0,163,90,20,0,90,148,1,101847,10912.3
+phones,communications;social media;mobile devices,0,11400,2353.124093,0,64,8,11,0,29,96,0.181818182,58996,10959.72727
+cars,transportation;travel,0,18376,2155.437497,0,162,14,19,0,96,293,0.182873851,105646,10674.05263
+ebook,apps;software;reading,0,1656,2901.166007,0,333,4,18,0,213,234,0.011695906,4822,7329.666667
+glasses,healthcare,0.009920635,556,3328.581101,5,505,23,18,1,192,103,0.206142753,19208,12367.16667
+bank,finance;economics,0.973167449,31303,2494.002796,58,92,49,17,15,91,149,0.654469435,188227,8268.941176
+accounting,finance,0.388802384,6216,3322.400265,234,569,181,18,9,224,146,0.771808572,34204,11603.83333
+bandage,healthcare;pharmaceuticals,0,39,3154.251608,0,84,15,16,0,44,80,0.217391304,1526,14810.6875
+insurance,finance,0.974018617,9397,3014.573103,268,222,126,16,12,183,61,0.470287918,79103,9656
+bread,food manufacture;groceries,0.049283217,455,1844.142711,27,169,39,20,4,107,63,0.193910256,23832,11762.15
+guns,firearms;defense,0.056936027,17615,2328.350439,7,110,18,15,4,92,150,0.12965368,62764,7760.466667
+farming,agriculture,0.039242424,4807,2764.727073,6,141,32,15,3,101,105,0.316858814,15771,10965.2
+college,education,0.415395115,26569,5288.87096,70,357,63,15,11,224,277,0.528348754,162988,13226.8
+ads,advertising;marketing;sales,0.046666667,23725,4859.401383,4,164,19,16,2,142,579,0.173015131,53109,14214.625
+mortgage,home ownership;property,0.004886123,5180,3022.646159,6,317,41,20,2,180,167,0.128891997,19343,12733
+bicycles,transportation;vehicle,0.004201681,877,1896.398974,1,79,10,14,1,49,146,0.183333333,3605,15473.14286
+math,curriculum,0.148974868,1213,3376.730613,12,410,122,18,5,284,143,0.390183645,22872,16422.27778
+hospital,healthcare;medicine,0.670429363,19262,2317.28579,93,103,79,19,8,156,302,0.431290459,146889,15599.89474
+software,computers;technology,0.098765432,74320,3758.074567,13,135,15,18,4,82,158,0.131128748,220151,17361
+coffee,beverages,0.165420875,1839,1619.887893,42,181,35,15,9,108,61,0.338835979,60097,7176.866667
+roundcloud,software,0,0,0,0,0,0,0,0,0,0,0,0,0
+alleyup,software,0,0,0,0,0,0,0,0,0,0,0,0,0
+spoken,software,0.152901786,2493,2704.20223,8,33,24,8,3,29,34,0.5,50458,8445.625
+strayze,restaurant,0,0,0,0,0,0,0,0,0,0,0,0,0
+embarker,software,0,0,0,0,0,0,0,0,0,0,0,1,0
+wool sign,clothing,0,0,0,0,0,0,0,0,0,0,0,0,0
+puff club,cigars,0,0,0,0,0,0,0,0,0,0,0,0,0
+tasket,software,0,0,0,0,0,0,0,0,0,0,0,11,0
+blue rose retail,merchandising,0,0,0,0,0,0,0,0,0,0,0,0,0
+vine rise,agricultural products,0,0,0,0,0,0,0,0,0,0,0,0,0
+cherry tom's produce,agricultural products,0,0,0,0,0,0,0,0,0,0,0,0,0
+naked grains,carpentry,0,0,0,0,0,0,0,0,0,0,0,0,0
+bubblephonics,design,0,0,0,0,0,0,0,0,0,0,0,0,0
+wooden peacock designs,graphic design,0,0,0,0,0,0,0,0,0,0,0,0,0
+thread tension,hobby store,0,0,0,0,0,0,0,0,0,0,0,3,0
+mix tread,manufacturing,0,0,0,0,0,0,0,0,0,0,0,0,0
+broken spindle,record label,0,0,0,0,0,0,0,0,0,0,0,0,0
+heel click,dance studio,0,0,0,0,0,0,0,0,0,0,0,8,0
+glass smash,rentals,0,0,0,0,0,0,0,0,0,0,0,3,0
+burst,vitamins,0,43,2479.455684,1,18,3,17,1,21,45,0.117647059,27004,17794.58824
