@@ -121,7 +121,8 @@ class Gatherer():
 										"date published":article["publishedAt"],"risk score":score})
 
 			except Exception as e:
-				print("Error at url (newsapi):\n{}\n{}".format(url,e))
+				# print("Error at url (newsapi):\n{}\n{}".format(url,e))
+				pass
 		if not self.features["num_articles"]: 
 			return self
 		self.features["avg_article_length"] /= self.features["num_articles"]
