@@ -54,10 +54,13 @@ def cache_top(model, processed=None):
 				for key, value in dic.items():
 					df_dict[key].append(value)
 		df = pd.DataFrame(df_dict).iloc[:10,]
-		df.to_csv("./cache/{}/{}.{}.csv".\
-							format(model, "_".join("".join([l for l in processed.entity if l not in punctuation]).split()), 
-								"-".join(["_".join("".join([l for l in i if l not in punctuation]).split()) for i in processed.industries])), 
-							index = False)
+		# df.to_csv("./cache/{}/{}.{}.csv".\
+		# 					format(model, "_".join("".join([l for l in processed.entity if l not in punctuation]).split()), 
+		# 						"-".join(["_".join("".join([l for l in i if l not in punctuation]).split()) for i in processed.industries])), 
+		# 					index = False)
+		df.to_csv("./cache/{}/{}.csv".\
+					format(model,processed.entity), 
+					index = False)
 
 def run_rf(processed):
 	with open('simple_model/models/rf.pkl', 'rb') as infile:

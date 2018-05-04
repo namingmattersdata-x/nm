@@ -40,18 +40,18 @@ def model():
 	X = full.iloc[:,2:-1]
 	y = full.iloc[:,-1]
 
-	# X_train, X_test, y_train, y_test = train_test_split(X,y, test_size=.2, random_state=131)
+	X_train, X_test, y_train, y_test = train_test_split(X,y, test_size=.2, random_state=131)
 
 	random_forest = RandomForestClassifier(n_estimators=1000)
 	random_forest.fit(X,y)
 	# random_forest.fit(X_train, y_train)
 
 	# below for tuning analysis etc
-	"""
+	# """
 	# p = np.array([e[1] for e in random_forest.predict_proba(X_test)])
 	# classes = np.greater_equal(p,.45).astype(int)
 	# print(metrics.confusion_matrix(y_test, classes))
-	"""
+	# """
 	return random_forest
 
 def dump(rf):
