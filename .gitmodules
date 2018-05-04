@@ -1,0 +1,3 @@
+[submodule "ner"]
+	path = ner
+	url = https://github.com/deepmipt/ner
