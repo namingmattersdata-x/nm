@@ -1,8 +1,6 @@
 # MOSTLY DEPRECATED IN FAVOR OF Collector() class (collector.py), JUST FOR REFERENCE
 import bs4 as bs
 import requests
-# import json
-from pprint import PrettyPrinter
 
 # FULL CONTACT (BY DOMAIN) (to get more information using domain)
 def full_contact(query=""):
@@ -56,8 +54,6 @@ def nytimes(query = ""):
 	return companies
 
 
-# from pprint import PrettyPrinter
-# PrettyPrinter().pprint(nytimes('apple'))
 
 # Thomasnet (to find company names) (other similar sites?)
 
@@ -105,13 +101,11 @@ def open_corporates(query = ""):
 	    params=data
 	)
 	# there's some other decent info in here
-	PrettyPrinter().pprint(response.json())
-	# companies = [company['company']['name'] for company in response.json()['results']['companies']]
+	companies = [company['company']['name'] for company in response.json()['results']['companies']]
 
-	# return companies
+	return companies
 
-print(open_corporates("resolute"))
+# print(open_corporates("resolute"))
 
 
-## PeopleDataLabs (to find company names)
 # Google News API (to get more information and possibly risk factor/maybe find company names)

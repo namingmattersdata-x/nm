@@ -1,5 +1,4 @@
 from sner import Ner
-import json
 from newsapi import NewsApiClient
 import requests
 import bs4 as bs
@@ -46,6 +45,7 @@ class Gatherer():
 		                                      sort_by='relevancy',
 		                                      page=1)
 		# if 'totalResults' not in all_articles:
+		# # this is indicative of an issue with the newsapi response
 		# 	return self
 		self.features["newsapi_totalResults"] = all_articles["totalResults"]
 		self.features["newsapi_rawResults"] = newsapi.get_everything(q='"' + self.entity + '"',
@@ -61,11 +61,11 @@ class Gatherer():
 				source = requests.get(url, headers)
 				if source.status_code != 200:
 					continue
-				# decode to bring back to string (lol)
+				# decode to bring back to string
 				text = text_from_html(source.content).decode('utf-8')
 				# pattern = " ".join(["[" + e[0] + e[0].upper() + "]" + e[1:] for e in self.entity.split()])
 				# indices = [m.start() for m in re.finditer(pattern, str(text))]
-				indices = [m.start() for m in re.finditer(self.entity, text.lower())] # this way was faster with limited testing
+				indices = [m.start() for m in re.finditer(self.entity, text.lower())] # this way was faster than the 2 above with limited testing
 				# this is just to keep some contexts for NN training
 				if not indices: # ignore if entity never found in article (means something probly wrong)
 					continue

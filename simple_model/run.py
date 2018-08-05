@@ -9,6 +9,7 @@ import _pickle
 from string import punctuation
 
 def run_logistic(processed):	
+	''' Calculates predicted probability of positive classification using a logistic regression model'''
 	with open('simple_model/models/logistic_coefficients.json', 'r') as infile:
 		data = json.load(infile)
 
@@ -46,6 +47,7 @@ def run_logistic(processed):
 
 
 def cache_top(model, processed=None):
+	'''caches the "riskiest" webpages in ./cache'''
 	if processed:
 		df_dict = {"source":[],"preview":[],"date published":[],"risk score":[]}
 		sort = sorted(processed.articles, key = lambda x:x["risk score"], reverse = True)
@@ -54,15 +56,13 @@ def cache_top(model, processed=None):
 				for key, value in dic.items():
 					df_dict[key].append(value)
 		df = pd.DataFrame(df_dict).iloc[:10,]
-		# df.to_csv("./cache/{}/{}.{}.csv".\
-		# 					format(model, "_".join("".join([l for l in processed.entity if l not in punctuation]).split()), 
-		# 						"-".join(["_".join("".join([l for l in i if l not in punctuation]).split()) for i in processed.industries])), 
-		# 					index = False)
-		df.to_csv("./cache/{}/{}.csv".\
-					format(model,processed.entity), 
-					index = False)
+		df.to_csv("./cache/{}/{}.{}.csv".\
+							format(model, "_".join("".join([l for l in processed.entity if l not in punctuation]).split()), 
+								"-".join(["_".join("".join([l for l in i if l not in punctuation]).split()) for i in processed.industries])), 
+							index = False)
 
 def run_rf(processed):
+	''' Calculates predicted probability of positive classification using a Random Forest model'''
 	with open('simple_model/models/rf.pkl', 'rb') as infile:
 		rf = _pickle.load(infile)
 

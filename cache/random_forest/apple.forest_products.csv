@@ -1,5 +1,11 @@
-date published,preview,risk score,source
-2018-01-25T09:30:00Z,https://www.greenbiz.com/article/these-14-businesses-are-growing-money-trees,3,Greenbiz.com
-2018-03-16T23:17:25Z,https://www.theglobeandmail.com/report-on-business/is-ottawas-supercluster-funding-intiative-a-superboondoggle-in-themaking/article38297014/,3,The Globe And Mail
-2018-02-08T14:00:00Z,http://www.esquire.com/news-politics/a15895746/bust-big-tech-silicon-valley/,2.282467532,Esquire.com
-2018-02-08T14:00:00Z,https://www.esquire.com/news-politics/a15895746/bust-big-tech-silicon-valley/,2.282467532,Esquire.com
+source,preview,date published,risk score
+The Irish Times,https://www.irishtimes.com/business/markets/up-beat-european-stocks-hold-on-to-five-month-highs-1.3275579,2017-10-31T18:38:52Z,3.0
+Marketwatch.com,http://www.marketwatch.com/story/these-55-stocks-have-at-least-doubled-since-trump-was-elected-2017-12-18,2017-12-18T08:03:09Z,2.75
+The Globe And Mail,https://www.theglobeandmail.com/globe-investor/investment-ideas/value-plays-likely-to-be-few-and-far-between-for-foreseeable-future/article36974668/,2017-11-14T21:44:56Z,2.7142857142857144
+9to5mac.com,https://9to5mac.com/2017/10/10/apple-environment-paper/,2017-10-10T17:30:38Z,2.0638297872340425
+The Globe And Mail,https://www.theglobeandmail.com/globe-investor/inside-the-market/fridays-analyst-upgrades-and-downgrades/article36823872/,2017-11-03T12:55:54Z,2.0
+Esquire.com,https://www.esquire.com/news-politics/a15895746/bust-big-tech-silicon-valley/,2018-02-08T14:00:00Z,1.8785714285714286
+Esquire.com,http://www.esquire.com/news-politics/a15895746/bust-big-tech-silicon-valley/,2018-02-08T14:00:00Z,1.8785714285714286
+Daily Mail,http://www.dailymail.co.uk/sciencetech/article-5284995/Modern-day-humans-lost-sense-smell.html,2018-01-18T17:08:58Z,1.25
+Macobserver.com,https://www.macobserver.com/news/apple-drastically-cut-plastic-use-iphone-packaging/,2017-10-10T22:03:58Z,1.2121212121212122
+Prnewswire.com,http://www.prnewswire.com/news-releases/forest-stewardship-council-general-assembly-tackles-global-challenges-300531286.html,2017-10-09T13:30:00Z,1.0

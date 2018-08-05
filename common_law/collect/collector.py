@@ -55,7 +55,6 @@ class Collector():
 
 		if num > 20:
 			for i in range(num//20):
-				# decide better limiter later
 				if len(companies) >= 100:
 					break
 				else:
@@ -142,5 +141,5 @@ class Collector():
 		return self
 
 
-# from pprint import PrettyPrinter
-# PrettyPrinter().pprint(Collector().collect("all", "resolute"))
+from pprint import PrettyPrinter
+PrettyPrinter().pprint(Collector().collect("all", "resolute"))
